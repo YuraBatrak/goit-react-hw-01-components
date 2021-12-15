@@ -1,0 +1,25 @@
+.transactionHistory {
+  margin: auto;
+}
+.th {
+  width: 120px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+.thead {
+  border-radius: 5px;
+  background-color: blue;
+}
+.tr {
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+}
+.tr:not(:nth-child(2n)) {
+  background-color: rgb(176, 190, 189);
+}
+.tr:hover {
+  background-color: yellowgreen;
+}
